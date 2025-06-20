@@ -32,7 +32,7 @@ const storage=multer.diskStorage({
         cb(null,newName);
     },
 })
-
+ 
 const fileFilter=(req,file,cb)=>{
     //we are allowing these file types
     const allowedTypes=/jpeg|jpg|png|pdf/
